@@ -1,11 +1,4 @@
 
-
-proc setinit;
-run;
-*Moen - NHANES - longitudinal phase 2 study;
-
-
-************** STOCK SYNTAX BELOW IS FROM PHASE 1 CROSS-SECTIONAL STUDY*********************;
 *************************************************************************************************;
 * Example code to download/import NHANES data files (SAS transport .XPT files) as a dataset     *;
 * For SAS and SAS-callable SUDAAN                                                               *;
