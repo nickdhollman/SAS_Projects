@@ -2,7 +2,7 @@
 *Final Project;
 
 *import dataset;
-proc import file="C:\Users\nickd\Documents\Survival Data Analysis\Final Project\CA125 in Ovary Cancer.xlsx"
+proc import file="filepath\CA125 in Ovary Cancer.xlsx"
 out=work.ovarian
 replace
 dbms=xlsx;
@@ -54,8 +54,8 @@ label Initial_CA125_Cat='Quartile of Cancer antigen 125 level measured in units 
 label Patient='Patient ID';
 label BMI='Body mass index (kg/m2)';
 label Grade='Cancer grade (1-4)';
-label Plt_count='Platelet count (× 10*9/L)';
-label WBC='White blood cell count (× 10*9/L)';
+label Plt_count='Platelet count (Ã— 10*9/L)';
+label WBC='White blood cell count (Ã— 10*9/L)';
 label age_dx='Age at diagnosis(year)';
 label white='White race (Y/N)';
 label OS='Overall survival(months)';
