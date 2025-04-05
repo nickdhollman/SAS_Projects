@@ -2,7 +2,7 @@
 *Analysis of Frequency;
 *Take Home Final;
 
-libname final "C:\Users\nickd\Documents\Analysis of Frequency";
+libname final "filepath\Analysis of Frequency";
 
 *COHORT STUDY;
 *make work dataset for evans;
@@ -46,7 +46,7 @@ format ECG ECG. HTN HTN. CHD CHD.;
 run;
 
 *generate document for table;
-ODS RTF FILE="C:\Users\nickd\Documents\Analysis of Frequency\Report Graph.rtf";
+ODS RTF FILE="filepath\Report Graph.rtf";
 
 proc freq data=evans;
 tables ECG*HTN*CHD / nopercent nocol chisq relrisk riskdiff;
@@ -263,7 +263,7 @@ run;
 
 *alcohol;
 
-proc import file="C:\Users\nickd\Documents\Analysis of Frequency\alcohol1.xls"
+proc import file="filepath\alcohol1.xls"
 out=work.alcohol
 replace
 dbms=xls;
@@ -305,7 +305,7 @@ value Casestatus
 	0='Control'
 	1='Case'
 ;
-ODS RTF FILE="C:\Users\nickd\Documents\Analysis of Frequency\Report Graph2.rtf";
+ODS RTF FILE="filepath\Report Graph2.rtf";
 proc gchart data=alc2 ;
   vbar Casestatus / group=Alcgp discrete
           width=10 gspace=2 outside=percent
@@ -344,7 +344,3 @@ class Alcgp(ref='0')casestatus /param=ref;
 model Casestatus(event='1') = Alcgp / lackfit;
 freq N;
 run;
-
-*Your adherence to the University of Oklahoma’s standards on academic integrity makes it possible to offer examinations that are educationally appropriate and that permit students flexibility and freedom.  Thank you for upholding the values of your academic community.
-I have adhered to the University’s standards on academic integrity, have neither given nor received assistance during this examination, and have used no materials that the instructor did not specifically permit.
-______Nicholas Hollman_______________________You may type your signature here*
