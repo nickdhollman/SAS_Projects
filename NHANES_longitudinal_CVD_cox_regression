@@ -1,18 +1,4 @@
 
-*************************************************************************************************;
-* Example code to download/import NHANES data files (SAS transport .XPT files) as a dataset     *;
-* For SAS and SAS-callable SUDAAN                                                               *;
-*************************************************************************************************;
-
-***************************************************************************;
-** Example 1: import SAS transport file that is saved on your hard drive **;
-***************************************************************************;
-
-* First, download the NHANES 2015-2016 Demographics file and save it to your hard drive *;
-* from: https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Demographics&CycleBeginYear=2015 *;
-* You may need to right-click the link to the data file and select "Save target as..." *;
-
-
 ************ IMPORT DATA FOR BASELINE - 1999 - 2014 *****************************;
 
 
