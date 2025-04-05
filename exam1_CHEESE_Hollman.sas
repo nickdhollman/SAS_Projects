@@ -1,8 +1,4 @@
-*Nicholas Hollman;
-*Biostatistics 2 exam 1;
-*3/11/22;
-
-libname exam1 "C:\Users\nickd\Documents\Biostatistics 2\Exam 1";
+libname exam1 "filepath\Exam 1";
 
 data cheese; set exam1.cheese;
 run;
@@ -384,8 +380,3 @@ run;
 quit;
 *these do seem to have a correlation, interaction term makes sense;
 goptions reset=all;
-
-*I have adhered to the University’s standards on academic integrity, have neither given nor 
-received assistance during this examination, and have used no materials that the instructor 
-did not specifically permit.;
-*Nicholas Hollman;
