@@ -1,7 +1,7 @@
 
 
 *Import data;
-proc import file="U:\Khorgami_Wang_BMI_Panniculectomy\NSQIP_2012_2021_Panniculectomy.xlsx"
+proc import file="filepath\NSQIP_2012_2021_Panniculectomy.xlsx"
 out=work.pann_excel
 replace
 dbms=xlsx;
@@ -27,7 +27,7 @@ proc freq data=pann_excel_d;
 tables OperYR;
 run;
 
-libname NSQIP_ 'U:\Khorgami_NSQIP\SAS Datasets_share';
+libname NSQIP_ 'filepath\SAS Datasets_share';
 
 data panniculectomy;
 set NSQIP_.panniculectomy_new;
@@ -481,8 +481,6 @@ proc freq data=panniculectomy_f;
 tables OperYR;
 run;
 
-****** STOPPING PLACE FOR 4-5-24******************;
-
 
 **************************************;
 proc freq data=panniculectomy_f;
@@ -848,7 +846,7 @@ proc freq data=panniculectomy_f;
 tables abdominoplasty;
 run;
 
-libname pannic 'U:\Khorgami_Wang_BMI_Panniculectomy';
+libname pannic 'filepath';
 
 proc copy in=work out=pannic memtype=data;
    select panniculectomy_f;
@@ -1328,7 +1326,7 @@ class sex_ (ref='0')  race_cat(ref='0') age_cat (ref='0') obesity(ref='0') diabe
 chf(ref='0') hypermed_(ref='0') steroid_(ref='0') home(ref='1') fnstat(ref='1') plast_surg(ref='1') /param=ref;
 model any_complication(event='1')= sex_ race_cat age_cat obesity diabetes_ smoker copd chf hypermed_ steroid_ fnstat plast_surg /scale=none aggregate;
 run;
-*****FINAL MODEL CHOSEN - MODIFY SEE FURTHER DOWN;
+*****FINAL MODEL CHOSEN - MODIFIED SEE FURTHER DOWN;
 
 *test for confounding - add back in bleed and dialysis;
 proc logistic data=panniculectomy_f ;
@@ -1581,7 +1579,7 @@ tables race_cat;
 run;
 
 ************************** FINAL MODEL CHOSEN FOR PAPER ******************************************;
-libname pann 'U:\Khorgami_Wang_BMI_Panniculectomy';
+libname pann 'filepath';
 
 data work.panniculectomy_f;
 set pann.panniculectomy_f;
