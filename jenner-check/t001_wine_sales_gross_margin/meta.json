@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_wine_sales_gross_margin",
+  "source_file": "Wine_Sales_Brand_Analysis.sas",
+  "source_blob_sha": "843bc3c3eb0ecb5a60d83ee38ffefd1816bdfbf9",
+  "source_commit": "ea0edf2f256d525f159bf5e50dee63333cf28eb0",
+  "notes": "Gross margin / gross-margin-pct / inventory-turnover-rate / days-inventory-outstanding pipeline (PROC SORT, PROC FREQ, PROC SQL aggregations, PROC PRINT, PROC EXPORT) unchanged; substituted inline DATALINES for price/sales/inventory (originally loaded via the SAS Studio import wizard) and redirected the two PROC EXPORT targets from C:\\Users\\nickd\\... to ./output/."
+}

@@ -1,0 +1,16 @@
+{
+  "_captured_at": "2026-07-12T00:00:00Z",
+  "_captured_run_id": "r_fe4ff6d835444fdfa56227b2641dea40",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote ovarian (20 rows, 11 columns).",
+    "NOTE: FORMAT stage defined (4 ranges)."
+  ],
+  "output_contains": [
+    "Product-Limit Survival Estimates",
+    "Median Survival Time"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

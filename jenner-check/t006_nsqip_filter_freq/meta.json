@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_nsqip_filter_freq",
+  "source_file": "NSQIP_Panniculectomy_Complications_LogitRegression.sas",
+  "source_blob_sha": "bce7edd8d420c51132f29ad06fcadb636c5f3bf6",
+  "source_commit": "ea0edf2f256d525f159bf5e50dee63333cf28eb0",
+  "notes": "Abdominoplasty CPT-code flag (checking OTHERCPT1-10/CONCPT1-10 for code 15847), the elective-surgery/sepsis exclusion filters, and the age-category derivation unchanged. Substituted inline DATALINES for the original NSQIP_.panniculectomy_new libname read; dropped the earlier PROC IMPORT-sourced pann_excel_d/OperYR chain (a separate, disconnected filtering pass over a different mock source in the original file) to keep the bundle to one coherent pipeline."
+}

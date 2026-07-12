@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_evans_chd_logistic",
+  "source_file": "Categorical_Data_Analysis_Final.sas",
+  "source_blob_sha": "b67608ee8ec646beb3ccf0a010d6279482b44e55",
+  "source_commit": "ea0edf2f256d525f159bf5e50dee63333cf28eb0",
+  "notes": "COHORT STUDY section (CHD/ECG/HTN, the classic Evans County dataset): PROC FORMAT, PROC FREQ (frequencies + stratified chisq/relrisk), and two univariate + one forward-selection multivariate PROC LOGISTIC model unchanged. Substituted inline DATALINES for the original final.evans libname read. Dropped PROC CONTENTS, the ODS RTF report duplicate PROC FREQ, and the interaction/by-ECG stratified model to fit the API's 30s anonymous-tier execution budget (22s measured, stable across two runs)."
+}

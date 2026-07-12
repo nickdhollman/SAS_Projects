@@ -1,0 +1,72 @@
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                               Dependent Variable: taste                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   3      4965.77134   1655.25711     15.96    <.0001
+Error                  26      2697.11533    103.73520                    
+Corrected Total        29      7662.88667                                 
+
+Root MSE          10.18505    R-Square            0.6480
+Dependent Mean      24.53333    Adj R-Sq            0.6074
+Coeff Var         41.51514
+
+                                               Parameter Estimates                                               
+
+Variable          DF   Estimate  Standard Error   t Value  Pr > |t|  95% Confidence Limits  95% Confidence Limits
+----------  --------  ---------  --------------  --------  --------  ---------------------  ---------------------
+Intercept          1  -43.04243        18.68023     -2.30    0.0295              -81.44019               -4.64468
+lacticacid         1   19.96057         8.65822      2.31    0.0294                2.16334               37.75779
+aceticacid         1   -0.14802         4.55402     -0.03    0.9743               -9.50894                9.21290
+lnhsulfide         1   23.03937         7.49985      3.07    0.0049                7.62321               38.45553
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                               Dependent Variable: taste                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   6      5213.55048    868.92508      8.16    <.0001
+Error                  23      2449.33618    106.49288                    
+Corrected Total        29      7662.88667                                 
+
+Root MSE          10.31954    R-Square            0.6804
+Dependent Mean      24.53333    Adj R-Sq            0.5970
+Coeff Var         42.06334
+
+                                                  Parameter Estimates                                                   
+
+Variable                 DF   Estimate  Standard Error   t Value  Pr > |t|  95% Confidence Limits  95% Confidence Limits
+-----------------  --------  ---------  --------------  --------  --------  ---------------------  ---------------------
+Intercept                 1  106.35526       103.68687      1.03    0.3157             -108.13737              320.84788
+lacticacid                1  -47.23301       115.73061     -0.41    0.6870             -286.64000              192.17399
+aceticacid                1  -34.00820        28.05202     -1.21    0.2377              -92.03823               24.02183
+lnhsulfide                1    8.42302       109.10868      0.08    0.9391             -217.28547              234.13151
+lactic_acetic             1   16.65221        22.76469      0.73    0.4719              -30.44015               63.74456
+lactic_lnhsulfide         1  -12.98617        28.71243     -0.45    0.6553              -72.38234               46.41001
+acetic_lnhsulfide         1    6.07232        19.12908      0.32    0.7538              -33.49919               45.64383
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                               Dependent Variable: taste                                                
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   3      5054.69134   1684.89711     16.80    <.0001
+Error                  26      2608.19532    100.31520                    
+Corrected Total        29      7662.88667                                 
+
+Root MSE          10.01575    R-Square            0.6596
+Dependent Mean      24.53333    Adj R-Sq            0.6204
+Coeff Var         40.82506
+
+                                                Parameter Estimates                                                 
+
+Variable             DF   Estimate  Standard Error   t Value  Pr > |t|  95% Confidence Limits  95% Confidence Limits
+-------------  --------  ---------  --------------  --------  --------  ---------------------  ---------------------
+Intercept             1  -14.36520        22.11802     -0.65    0.5217              -59.82944               31.09903
+aceticacid            1   -5.63149         5.50305     -1.02    0.3156              -16.94318                5.68020
+lnhsulfide            1   22.73147         7.33006      3.10    0.0046                7.66432               37.79861
+lactic_acetic         1    3.83391         1.51757      2.53    0.0180                0.71450                6.95332
+

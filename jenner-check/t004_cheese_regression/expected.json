@@ -1,0 +1,17 @@
+{
+  "_captured_at": "2026-07-12T00:00:00Z",
+  "_captured_run_id": "r_48332a950c80430890459bc38581384e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote cheese (30 rows, 4 columns).",
+    "NOTE: Wrote cheese_i (30 rows, 10 columns).",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "output_contains": [
+    "The REG Procedure",
+    "Parameter Estimates"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

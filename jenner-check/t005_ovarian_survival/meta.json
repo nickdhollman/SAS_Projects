@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_ovarian_survival",
+  "source_file": "Ovary_Cancer_Survival_Analysis.sas",
+  "source_blob_sha": "30a3768ad5531254d1eaaa0f99522c6c793370e5",
+  "source_commit": "ea0edf2f256d525f159bf5e50dee63333cf28eb0",
+  "notes": "Staging recode, CA125-quartile categorization, labels, and the PROC FREQ / PROC MEANS / PROC LIFETEST (Kaplan-Meier overall survival) / PROC UNIVARIATE front section unchanged. Substituted inline DATALINES for the original PROC IMPORT of 'CA125 in Ovary Cancer.xlsx'; CA125 values spread around the script's own commented quartile breakpoints (Q1=61, median=262, Q3=940) so the derived categories populate meaningfully."
+}

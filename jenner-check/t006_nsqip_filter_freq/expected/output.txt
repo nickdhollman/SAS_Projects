@@ -1,0 +1,184 @@
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+Abdominoplasty    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+0                        15     75.00           15        75.00
+1                         5     25.00           20       100.00
+                                                   The FREQ Procedure
+
+                                       Cumulative    Cumulative
+ELECTSURG    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------
+No                   2     10.00            2        10.00
+Yes                 18     90.00           20       100.00
+                                                   The FREQ Procedure
+
+                                     Cumulative    Cumulative
+prsepis    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+None              15     83.33           15        83.33
+Null               2     11.11           17        94.44
+SIRS               1      5.56           18       100.00
+                                                The UNIVARIATE Procedure
+                                                   Variable:  Age_num
+
+                                                        Moments
+
+N                                 15    Sum Weights                       15
+Mean                       54.933333    Sum Observations          824.000000
+Std Deviation              13.317371    Variance                  177.352381
+Skewness                    0.227711    Kurtosis                   -1.488322
+Uncorrected SS          47748.000000    Corrected SS             2482.933333
+Coeff Variation            24.242788    Std Error Mean              3.438531
+
+          Basic Statistical Measures          
+
+Location             Variability              
+--------  ---------  -------------  ----------
+Mean      54.933333  Std Deviation   13.317371
+Median    52.000000  Variance       177.352381
+Mode              .  Range           39.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      36.000000
+1%          36.000000
+5%          36.000000
+10%         39.000000
+25% Q1      44.000000
+50% Median  52.000000
+75% Q3      70.000000
+90%         72.000000
+95%         75.000000
+99%         75.000000
+100% Max    75.000000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     36.000000  Value     68.000000
+Value     39.000000  Value     70.000000
+Value     41.000000  Value     71.000000
+Value     44.000000  Value     72.000000
+Value     45.000000  Value     75.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.916563308  0.170696163
+Kolmogorov-Smirnov  0.170080012  0.717374315
+Anderson-Darling    0.485201772      0.15
+Cramer-von Mises    0.074860528  0.729444642
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         15.975816758         0
+Sign                      7.5  0.000061035
+Signed Rank               120  0.00065506
+
+
+                    Stem Leaf                     #  Boxplot
+                 36 |0                      1   
+                 37 |                       0   
+                 38 |                       0   
+                 39 |0                      1   
+                 40 |                       0   
+                 41 |0                      1   
+                 42 |                       0   
+                 43 |                       0   
+                 44 |0                      1  |
+                 45 |0                      1  |
+                 46 |                       0  |
+                 47 |                       0  |
+                 48 |0                      1  |
+                 49 |0                      1  |
+                 50 |                       0  |
+                 51 |                       0  +
+                 52 |0                      1  +
+                 53 |                       0  |
+                 54 |                       0  |
+                 55 |0                      1  |
+                 56 |                       0  |
+                 57 |                       0  |
+                 58 |                       0  |
+                 59 |0                      1  |
+                 60 |                       0  |
+                 61 |                       0  |
+                 62 |                       0  |
+                 63 |                       0  |
+                 64 |                       0  |
+                 65 |                       0  |
+                 66 |                       0  |
+                 67 |                       0  |
+                 68 |0                      1  |
+                 69 |                       0  |
+                 70 |0                      1   
+                 71 |0                      1   
+                 72 |0                      1   
+                 73 |                       0   
+                 74 |                       0   
+                 75 |0                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=Age_num
+           |     +-----+
+           |     |     |
+        36-----*-----75   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+        75+                                       +++*
+          |                                  *  *+
+          |                              * *  ++
+          |                                 ++
+          |                              +++
+          |                            *+
+          |                          ++
+          |                        ++ *
+          |                     +++ *
+          |                   ++ **
+          |                 +* *
+          |               +*
+          |            +*+
+        36+        * ++
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+                                                   The FREQ Procedure
+
+                                     Cumulative    Cumulative
+age_cat    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------
+0                  7     46.67            7        46.67
+1                  4     26.67           11        73.33
+2                  4     26.67           15       100.00
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+Abdominoplasty    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+0                        12     80.00           12        80.00
+1                         3     20.00           15       100.00

@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_kappa_agreement",
+  "source_file": "Categorical_Data_Analysis_Final.sas",
+  "source_blob_sha": "b67608ee8ec646beb3ccf0a010d6279482b44e55",
+  "source_commit": "ea0edf2f256d525f159bf5e50dee63333cf28eb0",
+  "notes": "Inter-rater agreement / kappa statistic block (PROC FREQ with WEIGHT, AGREE, TEST KAPPA, EXACT SYMMETRY KAPPA WTKAP) taken verbatim -- the block was already self-contained via inline DATALINES in the original script, no substitution needed."
+}
