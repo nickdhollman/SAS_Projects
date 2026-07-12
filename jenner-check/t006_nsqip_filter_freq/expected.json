@@ -1,0 +1,17 @@
+{
+  "_captured_at": "2026-07-12T00:00:00Z",
+  "_captured_run_id": "r_b159055c95024f93b1bf558c29058017",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote panniculectomy (20 rows, 25 columns).",
+    "NOTE: Wrote panniculectomy_a (20 rows, 26 columns)."
+  ],
+  "output_contains": [
+    "Abdominoplasty",
+    "ELECTSURG",
+    "The UNIVARIATE Procedure"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

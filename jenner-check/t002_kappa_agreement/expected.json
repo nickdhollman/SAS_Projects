@@ -1,0 +1,17 @@
+{
+  "_captured_at": "2026-07-12T00:00:00Z",
+  "_captured_run_id": "r_5e87f0e8eeba441f9f6ca3df1c4a6072",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote kappa (16 rows, 3 columns).",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "output_contains": [
+    "Simple Kappa Coefficient",
+    "Weighted Kappa Coefficient",
+    "Bowker's Test for Symmetry"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_cheese_regression",
+  "source_file": "LinearRegression_midterm_biostat_2_.sas",
+  "source_blob_sha": "a460792f42611586d7020cfd76fb21d8e368ced0",
+  "source_commit": "ea0edf2f256d525f159bf5e50dee63333cf28eb0",
+  "notes": "Multiple-linear-regression section of the cheddar cheese taste analysis: derived-variable DATA step (log/product interaction terms) plus the no-interaction, with-interaction, and final PROC REG /clb models unchanged. Substituted inline DATALINES (the classic 30-row cheddar cheese taste dataset) for the original exam1.cheese libname read; dropped the PROC GPLOT/PROC UNIVARIATE diagnostic-plot section and the backward-selection intermediate step to keep the bundle focused on the model comparison the script itself calls out with a FINAL MODEL banner."
+}

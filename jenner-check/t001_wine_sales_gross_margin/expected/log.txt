@@ -1,0 +1,197 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA purchase_price
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote purchase_price (5 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA sales
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote sales (6 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA inventory
+
+NOTE: Processing inline DATALINES (5 lines)
+
+NOTE: Read 5 rows from DATALINES.
+NOTE: Wrote inventory (5 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA price
+
+
+NOTE: Read 5 rows from purchase_price.
+NOTE: Wrote price (5 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=price
+
+NOTE: Read 5 rows from price.
+NOTE: Wrote price (5 rows, 3 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=sales
+
+NOTE: Read 6 rows from sales.
+NOTE: Wrote sales (6 rows, 3 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_volume.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA price
+
+
+NOTE: Read 5 rows from purchase_price.
+NOTE: Wrote price (5 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA sale_price
+
+NOTE: Stream 1 processed 6 rows, max BY-group size: 2 (O(1) memory verified)
+NOTE: Stream 2 processed 5 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote sale_price (6 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=sale_price
+
+NOTE: 1 duplicate observations were deleted.
+NOTE: Read 6 rows from sale_price.
+NOTE: Wrote sale_pric_no_dup (5 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA Sale_price_b
+
+
+NOTE: Read 6 rows from Sale_price.
+NOTE: Wrote Sale_price_b (6 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table COG created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table Total_sale created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table Gross_Marg created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table Gross_Marg_sum created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table Gross_Marg_pct created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SQL 
+
+NOTE: Table Gross_Marg_pct_avg created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SORT data=Gross_Marg_pct_avg
+
+NOTE: 1 duplicate observations were deleted.
+NOTE: Read 6 rows from Gross_Marg_pct_avg.
+NOTE: Wrote top_gross_marg (5 rows, 12 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=top_gross_marg
+
+NOTE: PROC PRINT completed: 5 observations printed, 5 variables
+NOTE: DATA cog_no_dup
+
+
+NOTE: Read 5 rows from top_gross_marg.
+NOTE: Wrote cog_no_dup (5 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=Gross_Marg_pct_avg
+
+NOTE: 1 duplicate observations were deleted.
+NOTE: Read 6 rows from Gross_Marg_pct_avg.
+NOTE: Wrote top_gross_marg_pct (5 rows, 12 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=top_gross_marg_pct
+
+NOTE: PROC PRINT completed: 5 observations printed, 5 variables
+NOTE: DATA inventory_b
+
+
+NOTE: Read 5 rows from inventory.
+NOTE: Wrote inventory_b (5 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table avg_inventory created.
+NOTE: PROC SQL statement used.
+NOTE: PROC SORT data=avg_inventory
+
+NOTE: Read 5 rows from avg_inventory.
+NOTE: Wrote avg_invent_no_dup (5 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=avg_invent_no_dup
+
+NOTE: Read 5 rows from avg_invent_no_dup.
+NOTE: Wrote avg_invent_no_dup (5 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=cog_no_dup
+
+NOTE: Read 5 rows from cog_no_dup.
+NOTE: Wrote cog_no_dup (5 rows, 2 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA ITR
+
+NOTE: Stream 1 processed 5 rows, max BY-group size: 1 (O(1) memory verified)
+NOTE: Stream 2 processed 5 rows, max BY-group size: 1 (O(1) memory verified)
+
+NOTE: Wrote ITR (5 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA ITR_calc
+
+
+NOTE: Read 5 rows from ITR.
+NOTE: Wrote ITR_calc (5 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=ITR_calc
+
+NOTE: Read 5 rows from ITR_calc.
+NOTE: Wrote ITR_calc (5 rows, 7 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA DIO
+
+
+NOTE: Read 5 rows from ITR_calc.
+NOTE: Wrote DIO (5 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=DIO
+
+NOTE: PROC PRINT completed: 5 observations printed, 5 variables
+NOTE: PROC EXPORT data=Gross_Marg_pct_avg outfile=./output/Sale_and_Price.csv
+
+NOTE: Exported 6 rows to ./output/Sale_and_Price.csv.
+NOTE: PROC EXPORT data=DIO outfile=./output/ITR_DIO_brand.csv
+
+NOTE: Exported 5 rows to ./output/ITR_DIO_brand.csv.

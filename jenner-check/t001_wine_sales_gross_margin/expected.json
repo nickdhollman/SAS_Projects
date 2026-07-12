@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-12T00:00:00Z",
+  "_captured_run_id": "r_141aee9ecca64072beb91000d901fb61",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote purchase_price (5 rows, 3 columns).",
+    "NOTE: Wrote sales (6 rows, 3 columns).",
+    "NOTE: Wrote inventory (5 rows, 3 columns).",
+    "NOTE: Exported 6 rows to ./output/Sale_and_Price.csv.",
+    "NOTE: Exported 5 rows to ./output/ITR_DIO_brand.csv."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

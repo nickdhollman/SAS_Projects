@@ -1,0 +1,862 @@
+                                                   The FREQ Procedure
+
+                                            Cumulative    Cumulative
+new_stage         Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+IA,IB,IC                  6     30.00            6        30.00
+IIA,IIB,IIC               5     25.00           11        55.00
+IIIA,IIIB,IIIC            6     30.00           17        85.00
+IV                        3     15.00           20       100.00
+
+                                   Cumulative    Cumulative
+Stage    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------
+10               2     10.00            2        10.00
+11               2     10.00            4        20.00
+12               2     10.00            6        30.00
+20               1      5.00            7        35.00
+21               2     10.00            9        45.00
+22               2     10.00           11        55.00
+30               2     10.00           13        65.00
+31               2     10.00           15        75.00
+32               2     10.00           17        85.00
+40               3     15.00           20       100.00
+                                                  The MEANS Procedure
+
+ Variable             N        Minimum          Maximum   Lower Quartile          Median   Upper Quartile            Mean         Std Dev
+ ----------------------------------------------------------------------------------------------------------------------------------------
+ Initial_CA125       20     35.0000000     1500.0000000       62.5000000     255.0000000      660.0000000     412.9000000     430.8825582
+ ----------------------------------------------------------------------------------------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                                                                                         Cumulative    Cumulative
+Quartile of Cancer antigen 125 level measured in units per mililiter (U/mL)    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------------------------------------------------------------------
+0                                                                                      5     25.00            5        25.00
+1                                                                                      6     30.00           11        55.00
+2                                                                                      5     25.00           16        80.00
+3                                                                                      4     20.00           20       100.00
+                                                  The MEANS Procedure
+
+           Analysis Variable : Initial_CA125 Cancer antigen 125 level measured in units per mililiter (U/mL)
+
+        Quartile of Cancer antigen 125 level measured in units per mililiter (U/mL)          N Obs        Minimum        Maximum
+        ------------------------------------------------------------------------------------------------------------------------
+        0                                                                                        5     35.0000000     60.0000000
+        1                                                                                        6     65.0000000    260.0000000
+        2                                                                                        5    300.0000000    700.0000000
+        3                                                                                        4    940.0000000   1500.0000000
+        ------------------------------------------------------------------------------------------------------------------------
+
+    The LIFETEST Procedure    
+
+                             N
+--------------------  --------
+Total                       20
+Event                       12
+Censored                     8
+Median Survival Time   20.0000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  3.0000    0.9500     0.0487              20                 1
+  4.0000    0.9000     0.0671              19                 1
+  5.0000    0.8500     0.0798              18                 1
+  7.0000    0.8000     0.0894              17                 1
+  8.0000    0.7500     0.0968              16                 1
+  9.0000    0.7000     0.1025              15                 1
+ 11.0000    0.6500     0.1067              14                 1
+ 14.0000    0.6000     0.1095              13                 1
+ 18.0000    0.5455     0.1123              11                 1
+ 20.0000    0.4909     0.1136              10                 1
+ 22.0000    0.4364     0.1133               9                 1
+ 33.0000    0.3740     0.1130               7                 1
+
+                                                The UNIVARIATE Procedure
+                                       Variable:  BMI  (Body mass index (kg/m2))
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                       27.335000    Sum Observations          546.700000
+Std Deviation               3.114529    Variance                    9.700289
+Skewness                    0.191393    Kurtosis                   -0.633368
+Uncorrected SS          15128.350000    Corrected SS              184.305500
+Coeff Variation            11.393923    Std Error Mean              0.696430
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      27.335000  Std Deviation   3.114529
+Median    27.300000  Variance        9.700289
+Mode              .  Range          11.100000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      22.500000
+1%          22.500000
+5%          22.700000
+10%         22.950000
+25% Q1      24.950000
+50% Median  27.300000
+75% Q3      29.450000
+90%         31.450000
+95%         32.750000
+99%         33.600000
+100% Max    33.600000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     22.500000  Value     29.900000
+Value     22.900000  Value     30.500000
+Value     23.000000  Value     31.000000
+Value     24.100000  Value     31.900000
+Value     24.700000  Value     33.600000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.977469915  0.897420395
+Kolmogorov-Smirnov  0.068018184  0.999897147
+Anderson-Darling    0.125895996      0.15
+Cramer-von Mises    0.013191863  0.999944817
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         39.250186871         0
+Sign                       10  0.000001907
+Signed Rank               210  0.000088611
+
+
+                                                The UNIVARIATE Procedure
+                                      Variable:  age_dx  (Age at diagnosis(year))
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                       57.050000    Sum Observations         1141.000000
+Std Deviation               9.665321    Variance                   93.418421
+Skewness                   -0.177672    Kurtosis                   -0.725686
+Uncorrected SS          66869.000000    Corrected SS             1774.950000
+Coeff Variation            16.941841    Std Error Mean              2.161231
+
+         Basic Statistical Measures          
+
+Location             Variability             
+--------  ---------  -------------  ---------
+Mean      57.050000  Std Deviation   9.665321
+Median    58.500000  Variance       93.418421
+Mode              .  Range          35.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      39.000000
+1%          39.000000
+5%          41.000000
+10%         43.500000
+25% Q1      49.000000
+50% Median  58.500000
+75% Q3      63.500000
+90%         69.500000
+95%         72.500000
+99%         74.000000
+100% Max    74.000000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     39.000000  Value     64.000000
+Value     43.000000  Value     66.000000
+Value     44.000000  Value     68.000000
+Value     47.000000  Value     71.000000
+Value     48.000000  Value     74.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.979148205  0.922631695
+Kolmogorov-Smirnov  0.097936227  0.980497314
+Anderson-Darling    0.174111178      0.15
+Cramer-von Mises    0.029220061  0.981190448
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         26.396988625         0
+Sign                       10  0.000001907
+Signed Rank               210  0.000088611
+
+
+                                                The UNIVARIATE Procedure
+                                   Variable:  Plt_count  (Platelet count (x 10*9/L))
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                      237.750000    Sum Observations         4755.000000
+Std Deviation              37.186408    Variance                 1382.828947
+Skewness                    0.487250    Kurtosis                   -0.899229
+Uncorrected SS        1156775.000000    Corrected SS            26273.750000
+Coeff Variation            15.640971    Std Error Mean              8.315134
+
+           Basic Statistical Measures           
+
+Location              Variability               
+--------  ----------  -------------  -----------
+Mean      237.750000  Std Deviation    37.186408
+Median    235.000000  Variance       1382.828947
+Mode      195.000000  Range           120.000000
+
+     NOTE: The mode displayed is the smallest of 4 modes with a count of 2.
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      190.000000
+1%          190.000000
+5%          192.500000
+10%         195.000000
+25% Q1      205.000000
+50% Median  235.000000
+75% Q3      262.500000
+90%         295.000000
+95%         305.000000
+99%         310.000000
+100% Max    310.000000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     190.000000  Value     265.000000
+Value     195.000000  Value     275.000000
+Value     195.000000  Value     290.000000
+Value     200.000000  Value     300.000000
+Value     205.000000  Value     310.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.932417933  0.17186307
+Kolmogorov-Smirnov  0.133434623  0.823281394
+Anderson-Darling    0.441005268      0.15
+Cramer-von Mises    0.065011418  0.788168837
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         28.592444864         0
+Sign                       10  0.000001907
+Signed Rank               210  0.000088611
+
+
+                                                The UNIVARIATE Procedure
+                                  Variable:  WBC  (White blood cell count (x 10*9/L))
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                        7.545000    Sum Observations          150.900000
+Std Deviation               1.627227    Variance                    2.647868
+Skewness                    0.516886    Kurtosis                   -0.621563
+Uncorrected SS           1188.850000    Corrected SS               50.309500
+Coeff Variation            21.566961    Std Error Mean              0.363859
+
+        Basic Statistical Measures         
+
+Location            Variability            
+--------  --------  -------------  --------
+Mean      7.545000  Std Deviation  1.627227
+Median    7.350000  Variance       2.647868
+Mode             .  Range          5.600000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       5.400000
+1%           5.400000
+5%           5.500000
+10%          5.650000
+25% Q1       6.050000
+50% Median   7.350000
+75% Q3       8.750000
+90%          9.850000
+95%         10.600000
+99%         11.000000
+100% Max    11.000000
+
+         Extreme Observations          
+
+Lowest              Highest            
+--------  --------  --------  ---------
+Value     5.400000  Value      8.900000
+Value     5.600000  Value      9.000000
+Value     5.700000  Value      9.500000
+Value     5.900000  Value     10.200000
+Value     6.000000  Value     11.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.947668858  0.333086257
+Kolmogorov-Smirnov  0.112733299  0.936609179
+Anderson-Darling    0.329183077      0.15
+Cramer-von Mises    0.046007063  0.905082104
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         20.7360505         0
+Sign                       10  0.000001907
+Signed Rank               210  0.000088611
+
+
+                                                The UNIVARIATE Procedure
+                                       Variable:  OS  (Overall survival(months))
+
+                                                        Moments
+
+N                                 20    Sum Weights                       20
+Mean                       26.700000    Sum Observations          534.000000
+Std Deviation              22.024149    Variance                  485.063158
+Skewness                    0.802629    Kurtosis                   -0.754722
+Uncorrected SS          23474.000000    Corrected SS             9216.200000
+Coeff Variation            82.487451    Std Error Mean              4.924750
+
+          Basic Statistical Measures          
+
+Location             Variability              
+--------  ---------  -------------  ----------
+Mean      26.700000  Std Deviation   22.024149
+Median    19.000000  Variance       485.063158
+Mode              .  Range           67.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       3.000000
+1%           3.000000
+5%           3.500000
+10%          4.500000
+25% Q1       8.500000
+50% Median  19.000000
+75% Q3      44.500000
+90%         62.500000
+95%         67.500000
+99%         70.000000
+100% Max    70.000000
+
+         Extreme Observations          
+
+Lowest              Highest            
+--------  --------  --------  ---------
+Value     3.000000  Value     48.000000
+Value     4.000000  Value     55.000000
+Value     5.000000  Value     60.000000
+Value     7.000000  Value     65.000000
+Value     8.000000  Value     70.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.873440284  0.013511453
+Kolmogorov-Smirnov  0.184493333  0.450430154
+Anderson-Darling    0.952609994      0.01
+Cramer-von Mises    0.163554074  0.352900875
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         5.421595527  0.000031278
+Sign                       10  0.000001907
+Signed Rank               210  0.000088611
+
+
+                    Stem Leaf                     #  Boxplot
+                 22 |58                     2   
+                 23 |0                      1   
+                 24 |16                     2   
+                 25 |18                     2  |
+                 26 |08                     2  +
+                 27 |158                    3  +
+                 28 |38                     2  |
+                 29 |08                     2  |
+                 30 |5                      1   
+                 31 |08                     2   
+                 32 |                       0   
+                 33 |6                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=Body mass index (kg/m2)
+           |     +-----+
+           |     |     |
+        22.5-----*-----33.6   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+      33.6+                                            *++
+          |                                          ++
+          |                                       *++
+          |                                    *++
+          |                                *+*+
+          |                               *+
+          |                            **+
+          |                         +**
+          |                      +**
+          |                    +**
+          |                 +**
+          |              ++*
+          |           +++*
+      22.5+      *  ++*
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+                    Stem Leaf                     #  Boxplot
+                 39 |0                      1   
+                 40 |                       0   
+                 41 |                       0   
+                 42 |                       0   
+                 43 |0                      1   
+                 44 |0                      1   
+                 45 |                       0   
+                 46 |                       0   
+                 47 |0                      1   
+                 48 |0                      1   
+                 49 |                       0   
+                 50 |0                      1  |
+                 51 |                       0  |
+                 52 |0                      1  |
+                 53 |                       0  |
+                 54 |                       0  |
+                 55 |0                      1  |
+                 56 |                       0  |
+                 57 |0                      1  |
+                 58 |0                      1  +
+                 59 |0                      1  |
+                 60 |0                      1  |
+                 61 |0                      1  |
+                 62 |0                      1  |
+                 63 |0                      1  |
+                 64 |0                      1   
+                 65 |                       0   
+                 66 |0                      1   
+                 67 |                       0   
+                 68 |0                      1   
+                 69 |                       0   
+                 70 |                       0   
+                 71 |0                      1   
+                 72 |                       0   
+                 73 |                       0   
+                 74 |0                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=Age at diagnosis(year)
+           |     +-----+
+           |     |     |
+        39-----*-----74   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+        74+                                          ++*
+          |                                       *++
+          |                                    *++
+          |                                 +*+
+          |                             * **
+          |                           **++
+          |                       **+*+
+          |                      *++
+          |                   ++*
+          |                 ++*
+          |              ++* *
+          |           +++*
+          |        +++*
+        39+     +*+
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+                    Stem Leaf                     #  Boxplot
+                190 |0                      1   
+                191 |                       0   
+                192 |                       0   
+                193 |                       0   
+                194 |                       0   
+                195 |00                     2   
+                196 |                       0   
+                197 |                       0   
+                198 |                       0   
+                199 |                       0   
+                200 |0                      1   
+                201 |                       0   
+                202 |                       0   
+                203 |                       0   
+                204 |                       0   
+                205 |00                     2  |
+                206 |                       0  |
+                207 |                       0  |
+                208 |                       0  |
+                209 |                       0  |
+                210 |0                      1  |
+                211 |                       0  |
+                212 |                       0  |
+                213 |                       0  |
+                214 |                       0  |
+                215 |0                      1  |
+                216 |                       0  |
+                217 |                       0  |
+                218 |                       0  |
+                219 |                       0  |
+                220 |0                      1  |
+                221 |                       0  |
+                222 |                       0  |
+                223 |                       0  |
+                224 |                       0  |
+                225 |                       0  |
+                226 |                       0  |
+                227 |                       0  |
+                228 |                       0  |
+                229 |                       0  |
+                230 |0                      1  |
+                231 |                       0  |
+                232 |                       0  |
+                233 |                       0  |
+                234 |                       0  +
+                235 |                       0  +
+                236 |                       0  |
+                237 |                       0  |
+                238 |                       0  |
+                239 |                       0  |
+                240 |00                     2  |
+                241 |                       0  |
+                242 |                       0  |
+                243 |                       0  |
+                244 |                       0  |
+                245 |                       0  |
+                246 |                       0  |
+                247 |                       0  |
+                248 |                       0  |
+                249 |                       0  |
+                250 |0                      1  |
+                251 |                       0  |
+                252 |                       0  |
+                253 |                       0  |
+                254 |                       0  |
+                255 |                       0  |
+                256 |                       0  |
+                257 |                       0  |
+                258 |                       0  |
+                259 |                       0  |
+                260 |00                     2  |
+                261 |                       0  |
+                262 |                       0  |
+                263 |                       0  |
+                264 |                       0  |
+                265 |0                      1   
+                266 |                       0   
+                267 |                       0   
+                268 |                       0   
+                269 |                       0   
+                270 |                       0   
+                271 |                       0   
+                272 |                       0   
+                273 |                       0   
+                274 |                       0   
+                275 |0                      1   
+                276 |                       0   
+                277 |                       0   
+                278 |                       0   
+                279 |                       0   
+                280 |                       0   
+                281 |                       0   
+                282 |                       0   
+                283 |                       0   
+                284 |                       0   
+                285 |                       0   
+                286 |                       0   
+                287 |                       0   
+                288 |                       0   
+                289 |                       0   
+                290 |0                      1   
+                291 |                       0   
+                292 |                       0   
+                293 |                       0   
+                294 |                       0   
+                295 |                       0   
+                296 |                       0   
+                297 |                       0   
+                298 |                       0   
+                299 |                       0   
+                300 |0                      1   
+                301 |                       0   
+                302 |                       0   
+                303 |                       0   
+                304 |                       0   
+                305 |                       0   
+                306 |                       0   
+                307 |                       0   
+                308 |                       0   
+                309 |                       0   
+                310 |0                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=Platelet count (x 10*9/L)
+           |     +-----+
+           |     |     |
+        190-----*-----310   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+       310+                                            *+
+          |                                       * +++
+          |                                    *  ++
+          |                                    +++
+          |                                  *+
+          |                             * **+
+          |                            *++
+          |                          +++
+          |                        ++**
+          |                     +++*
+          |                   ++ **
+          |                ++** *
+          |           *  *+*
+       190+      *    +++
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+                    Stem Leaf                     #  Boxplot
+                  5 |4579                   4   
+                  6 |00479                  5  +
+                  7 |257                    3  +
+                  8 |0459                   4  |
+                  9 |05                     2   
+                 10 |1                      1   
+                 11 |0                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=White blood cell count (x 10*9/L)
+           |     +-----+
+           |     |     |
+        5.4-----*-----11   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+        11+                                            *+++
+          |                                           ++
+          |                                       *+++
+          |                                    *+++
+          |                                   ++
+          |                                *+*
+          |                             *+*
+          |                           +*+
+          |                        ++**
+          |                      ++*
+          |                   +++**
+          |                +++* *
+          |              *+* *
+       5.4+      *    *++
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+                    Stem Leaf                     #  Boxplot
+                  3 |0                      1   
+                  4 |0                      1   
+                  5 |0                      1   
+                  6 |                       0   
+                  7 |0                      1   
+                  8 |0                      1   
+                  9 |0                      1  |
+                 10 |                       0  |
+                 11 |0                      1  |
+                 12 |                       0  |
+                 13 |                       0  |
+                 14 |0                      1  |
+                 15 |                       0  |
+                 16 |0                      1  |
+                 17 |                       0  |
+                 18 |0                      1  +
+                 19 |                       0  +
+                 20 |0                      1  |
+                 21 |                       0  |
+                 22 |0                      1  |
+                 23 |                       0  |
+                 24 |                       0  |
+                 25 |0                      1  |
+                 26 |                       0  |
+                 27 |                       0  |
+                 28 |                       0  |
+                 29 |                       0  |
+                 30 |                       0  |
+                 31 |                       0  |
+                 32 |                       0  |
+                 33 |0                      1  |
+                 34 |                       0  |
+                 35 |                       0  |
+                 36 |                       0  |
+                 37 |                       0  |
+                 38 |                       0  |
+                 39 |                       0  |
+                 40 |                       0  |
+                 41 |0                      1  |
+                 42 |                       0  |
+                 43 |                       0  |
+                 44 |                       0  |
+                 45 |                       0  |
+                 46 |                       0  |
+                 47 |                       0  |
+                 48 |0                      1   
+                 49 |                       0   
+                 50 |                       0   
+                 51 |                       0   
+                 52 |                       0   
+                 53 |                       0   
+                 54 |                       0   
+                 55 |0                      1   
+                 56 |                       0   
+                 57 |                       0   
+                 58 |                       0   
+                 59 |                       0   
+                 60 |0                      1   
+                 61 |                       0   
+                 62 |                       0   
+                 63 |                       0   
+                 64 |                       0   
+                 65 |0                      1   
+                 66 |                       0   
+                 67 |                       0   
+                 68 |                       0   
+                 69 |                       0   
+                 70 |0                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=Overall survival(months)
+           |     +-----+
+           |     |     |
+        3-----*-----70   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+        70+                                            *+
+          |                                       *  ++
+          |                                    *  +++
+          |                                  *  ++
+          |                                *  ++
+          |                                +++
+          |                              +*
+          |                            +*
+          |                         +++
+          |                       ++  **
+          |                     ++** *
+          |                  +++**
+          |                *+**
+         3+      *    *  *+
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+

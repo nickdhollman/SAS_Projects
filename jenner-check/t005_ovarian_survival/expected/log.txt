@@ -1,0 +1,47 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA ovarian
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote ovarian (20 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT stage defined (4 ranges).
+NOTE: FORMAT white defined (2 ranges).
+NOTE: FORMAT delta defined (2 ranges).
+NOTE: DATA ovarian_a
+
+
+NOTE: Read 20 rows from ovarian.
+NOTE: Wrote ovarian_a (20 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_new_stage.spec.json
+NOTE: ODS plot written: freq_stage.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: DATA ovarian_b
+
+
+NOTE: Read 20 rows from ovarian_a.
+NOTE: Wrote ovarian_b (20 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_initial_ca125_cat.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC LIFETEST data=ovarian_b
+
+NOTE: PROC LIFETEST completed.
+NOTE: PROC UNIVARIATE
